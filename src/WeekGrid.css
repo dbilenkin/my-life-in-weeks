@@ -1,0 +1,47 @@
+/* src/WeekGrid.css */
+.week-grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px auto;
+}
+
+.week-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 572px; /* Adjust as needed */
+}
+
+.week-box {
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.legend {
+  margin-left: 20px;
+}
+
+.legend h3 {
+  margin-bottom: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.legend-label {
+  font-size: 14px;
+}
